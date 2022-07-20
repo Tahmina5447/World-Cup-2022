@@ -70,7 +70,7 @@ i.uil.uil-angle-right-b {
 
 .side-button {
     background: #0832a3;
-    height: 30%;
+    height: 26%;
     margin: 0% 8%;
     border-radius: 5%;
     display: flex;
@@ -116,7 +116,7 @@ span{
 .comment{
     margin-left: 7%;
 }
-/* start blog section style */
+/* end blog section style */
 
 
 /* start footer style */
@@ -155,5 +155,16 @@ footer ul li a {
 }
 
 /* end footer style */
+
+
+/* upcoming site middle section */
+.flag{
+    display: flex;
+}
+.flag-box {
+    padding: 22% 7%;
+    border: 1px solid #e3dadacc;
+    border-radius: 4%;
+}
 
 
