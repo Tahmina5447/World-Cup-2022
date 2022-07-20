@@ -1,0 +1,159 @@
+/* common style */
+@import url('https://fonts.googleapis.com/css2?family=Arima&family=Arimo:wght@500&family=Hind+Siliguri:wght@500&family=Oswald&family=Poppins:ital,wght@0,500;1,400;1,500&family=Ubuntu&display=swap');
+body{
+    
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+ main{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+section{
+    width:80%;
+    margin: 3% 0%;
+}
+/* start top section style */
+
+.top-section {
+    display: flex;
+    background: linear-gradient(#14d3e730, #0832a3);
+    border-radius: 20px;
+}
+.bannar-info {
+    width: 46%;
+    padding: 0% 8%;
+} 
+.bannar-info h1 {
+    font-size: 4em;
+    color: #fb1635;
+    line-height: 131%;
+    margin-bottom: 3%;
+    padding-top: 10%;
+}
+.bannar-info p{
+    color: white;
+    margin-bottom: 11%;
+}
+.bannar-info a{
+    text-decoration: none;
+    color: white;
+    background-color: #fb1635;
+    padding: 15px 36px;
+    border-radius: 7px;
+    
+}
+i.uil.uil-angle-right-b {
+    margin-left: 2%;
+}
+.top-section .image{
+    width: 54%;
+    
+}
+.top-section .image img{
+    width: 100%;
+    height: 100%;
+    
+}
+/* end top section style */
+
+
+/* start blog section style */
+ .blog-section{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.side-button {
+    background: #0832a3;
+    height: 30%;
+    margin: 0% 8%;
+    border-radius: 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.side-button a {
+    text-decoration: none;
+    color: #040404;
+    background-color: #ffffff;
+    padding: 7% 16%;
+    border-radius: 7px;
+    margin-top: 8%;
+}
+#group-btn {
+    padding: 7% 28%;
+}
+#blog-btn {
+    color: white;
+    padding: 7% 36%;
+    background-color: #fb1635;;
+}
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+}
+
+.single-blog img{
+    width: 100%;
+}
+.blog-info {
+    border-bottom: 1px solid #efe4e4fa;
+    border-left: 1px solid #efe4e4fa;
+    border-right: 1px solid #efe4e4fa;
+    margin-top: -1%;
+    border-radius: 5%;
+    padding: 4%;
+}
+span{
+    color: gray;
+}
+.comment{
+    margin-left: 7%;
+}
+/* start blog section style */
+
+
+/* start footer style */
+footer{
+    background-color: rgb(18, 18, 18);
+    width: 100%;
+    padding: 6% 0%;
+}
+footer h1{
+    font-size: 3em;
+    color: #fb1635;
+    text-align: center;
+    
+}
+hr {
+   
+    background-color: #80808096;
+    
+    height: 0.5px;
+    border: none;
+    width: 90%;
+}
+ul {
+    display: flex;
+    justify-content: center;
+}
+li {
+    text-align: center;
+    padding: 1% 2%;
+}
+footer ul li a {
+    text-decoration: none;
+    color: #f5eee5;
+    font-size: 14px;
+   
+}
+
+/* end footer style */
+
+
