@@ -48,6 +48,9 @@ section{
     cursor: pointer;
     
 }
+.bannar-info a:hover{
+    box-shadow: 4px 4px 8px rgb(70, 48, 48);
+}
 i.uil.uil-angle-right-b {
     margin-left: 2%;
 }
@@ -118,6 +121,21 @@ span{
 .comment{
     margin-left: 7%;
 }
+.button{
+        
+    margin: 44px 0px;
+    justify-content: center;
+    display: flex;
+    display: none;
+}
+.middle-section .button a{
+    background-color: red;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
 /* end blog section style */
 
 
@@ -160,7 +178,7 @@ footer ul li a {
 /* end footer style */
 
 
-/* upcoming site middle section */
+/* start upcoming site middle section */
 .flag{
     display: flex;
 }
@@ -169,6 +187,7 @@ footer ul li a {
     border: 1px solid #e3dadacc;
     border-radius: 4%;
 }
+/* end upcoming site middle section */
 
 
 
@@ -217,9 +236,7 @@ footer ul li a {
 
 
   @media only screen and (min-width: 820px) and (max-width:1180px){
-    main{
-        /* margin-left: -60px; */
-    }
+    
     
     .bannar-info {
         width: 50%;
@@ -269,6 +286,20 @@ footer ul li a {
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .button{
+        
+        margin: 44px 0px;
+        justify-content: center;
+        display: flex;
+        
+    }
+    .middle-section .button a{
+        background-color: red;
+        color: white;
+        padding: 15px 30px;
+        text-decoration: none;
+        border-radius: 5px;
+    }
 }
 
   
