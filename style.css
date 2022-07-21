@@ -208,7 +208,7 @@ footer ul li a {
         font-size: 25px;
         margin-bottom:30px;
         padding-top:25px;
-       line-height: 0px;
+       line-height: 30px;
        text-align: center;
     }
     .bannar-info p{
@@ -220,7 +220,7 @@ footer ul li a {
    
     display: flex;
     justify-content: center;
-   margin: 0px 50px;
+   margin: 0px 30px;
 }
     
     .top-section .image {
